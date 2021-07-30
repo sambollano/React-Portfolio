@@ -1,123 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <title>Samantha's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
-    <!--navigation-->
-    <header>
-        <h1>
-            <a href="/">
-                Samantha's Portfolio
-            </a>
-        </h1>
-        <nav>
-            <!-- Unordered List Elements-->
-            <ul>
-                <!-- List Items Element -->
-                <li>
-                    <!-- Anchor element -->
-                    <a href="#About-me">About Me</a>
-                </li>
-                <li>
-                    <a class="active" href="#My-Portfolio">My Portfolio's</a>
-                </li>
-                <li>
-                    <a href="#Contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-<!--Aboutmesection-->
-    <section id="About-me">
-        <div class="flex-row">
-            <h2 class="section-title primary border">
-                About Me
-            </h2>
-            <img src="./assets/css/images/183343901_4258551097488553_244415783958224303_n.jpg" width="460" height="345">
-        </b>
-            <a href="https://my.indeed.com/p/samanthaa-x4vdu66">
-            <img src="./assets/css/images/11-110796_download-free-png-and-vector-resume-logo.png" src="Resume" style="width:42px;height:42px;"></a>
-            <p><p class="intro">
-                Hello! My Name is Samantha Arellano. readymade yr Echo Park XOXO Tumblr normcore Banksy direct
-                trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack
-                fixie
-                Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel
-                meggings dsjvljafdfdfdsf  hellodkfasdfdsdadasdas
-                narwhal Marfa Schl itz sustainable Intelligentsia umami deep v craft
-            </p>
-        </div>
-    </section>
-    <div id="like_button_container"></div>
-       <!-- "what we do" section-->
-       <section id="#My-Portfolio">
-           <div class="flex-row">
-            <h2 class="section-title primary border">
-                My Portfolio's :
-            </h2>
-            <a href="https://sambollano.github.io/Horiseon.Challange/">
-            <img src="./assets/css/images/harry-potter-clipart-transparent-background-1.png" alt="Run-buddy" style="width: 460 height"></a>
-            </b>
-            <a href="https://sambollano.github.io/Taskinator/">
-            <img src="./assets/css/images/lunalovegood.jpg" alt="Horiseon.Challange" style="width: 460 height"></a>
-            </b>
-            <a href="https://sambollano.github.io/Git-it-done/index.html">
-            <img src="./assets/css/images/il_fullxfull.1158239269_l0ng.jpg" alt="Git-it-Done" style="width: 460 height"></a>
-            </b>
-            <a href="https://sambollano.github.io/Taskinator/">
-            <img src="./assets/css/images/238b5a9e550b3ff8c3de67c1a49cf977.jpg" alt="Horiseon.Challange" style="width: 460 height"></a>
-            </b>
-            <a href="https://sambollano.github.io/Taskmaster-Pro/">
-            <img src="./assets/css/images/13464-200.png" alt="Taskmaster-Pro" style="width: 460 height"></a>
-            </b>
-            
-            </div>
-            </div>
-            
-            <p><p class="intro">
-                Hello Welcome to My Portfolio Section! 
-                Here are some Projects I have Been working on. 
-                Go ahead and CLICK the pictures and view them!
-                Enjoy all the hard work I put into these. Lorem ipsum dolor sit, 
-                amet consectetur gfhfghs fh sdfhfdhhsdfhdf hsg hsgh gs hgh shdfhdf
-                adipisicing elit. Aperiam ad consectetur dolorum. Quibusdam sed quas 
-                corrupti rem quisquam? Repudiandae fgf dgdfg  gsfdgfg  sfdg fdg gsdfg
-                temporibus voluptatum dolore sunt quos natus totam fuga.
-            </p>
-        </div>
-    </section>
-    <!--Start Reachout-->
-    <section id="#Contact-me">
-        <div class="flex-row">
-        <h2 class="section-title secondary-border">
-           Contact Me :
-           </h2>
-            <div class="contact-info">
-            </div>
-                <address>
-                    <div class="contact-form"></div>
-                    Samantha Arellano <br />
-                    55 Main Street <br />
-                    Austin, Tx <br />
-                    73301 <br />
-                    PhoneNumber: <a href="tel:123.456.7891">123.456.7891</a><br />
-                    E-mail: <a href="mailto://sambollano54@gmail.com">Sambollano54@gmail.com</a>
-                </address>
-                   <!-- ... other HTML ... -->
-
-  <!-- Load React. -->
-  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-
-  <!-- Load our React component. -->
-  <script src="like_button.js"></script>
-
-</body>
-            </body>
-
-            </html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Andrea Poklar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
