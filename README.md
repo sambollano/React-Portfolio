@@ -1,6 +1,13 @@
 ## Create React Portfolio
 This project was bootstrapped with Create React App.
 
+## WebSite
+Github:
+ https://sambollano.github.io/React-Portfolio/
+
+## Video
+
+https://drive.google.com/file/d/1J1FfCHjpR7TMGLD_kUzn-wm7MsHM98wb/view
 ## Project
  For this project, React was used to create a quality portfolio that features different tabs that go to different pages. The different pages include an About, Contact, and Projects page.
 
